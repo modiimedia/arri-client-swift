@@ -1,0 +1,21 @@
+{
+    "name": "arri-client-swift",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "sync-repo": "pnpm jiti sync-repo.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/degit": "^2.8.6",
+        "@types/fs-extra": "^11.0.4",
+        "@types/node": "^22.4.0",
+        "degit": "^2.8.4",
+        "fs-extra": "^11.2.0",
+        "jiti": "^1.21.6",
+        "prettier": "^3.3.3"
+    }
+}
