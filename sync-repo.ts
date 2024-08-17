@@ -9,11 +9,14 @@ async function main() {
         fs.rmSync(tempDir, { recursive: true });
     }
     fs.mkdirSync(tempDir);
-    const degit = Degit("modiimedia/arri/languages/swift/swift-client", {
+    const degit = Degit("modiimedia/arri", {
         force: true,
     });
     await degit.clone(tempDir);
-    fs.copySync(tempDir, ".", { overwrite: true });
+    fs.copySync(path.resolve(tempDir, "languages/swift/swift-client"), ".", {
+        overwrite: true,
+    });
+    fs.copySync(path.resolve(tempDir, "LICENSE"), "LICENSE");
     if (fs.existsSync(".gitignore")) {
         let gitIgnore = fs.readFileSync(".gitignore", "utf8");
         if (!gitIgnore.includes("node_modules")) {
