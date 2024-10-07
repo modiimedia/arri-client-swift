@@ -24,8 +24,8 @@ importers:
         specifier: ^11.2.0
         version: 11.2.0
       jiti:
-        specifier: ^2.2.1
-        version: 2.2.1
+        specifier: ^2.3.3
+        version: 2.3.3
       prettier:
         specifier: ^3.3.3
         version: 3.3.3
@@ -56,8 +56,8 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  jiti@2.2.1:
-    resolution: {integrity: sha512-weIl/Bv3G0J3UKamLxEA2G+FfQ33Z1ZkQJGPjKFV21zQdKWu2Pi6o4elpj2uEl5XdFJZ9xzn1fsanWTFSt45zw==}
+  jiti@2.3.3:
+    resolution: {integrity: sha512-EX4oNDwcXSivPrw2qKH2LB5PoFxEvgtv2JgwW0bU858HoLQ+kutSvjLMUqBd0PeJYEinLWhoI9Ol0eYMqj/wNQ==}
     hasBin: true
 
   jsonfile@6.1.0:
@@ -68,8 +68,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  undici-types@6.19.6:
-    resolution: {integrity: sha512-e/vggGopEfTKSvj4ihnOLTsqhrKRN3LeO6qSN/GxohhuRv8qH9bNQ4B8W7e/vFL+0XTnmHPB4/kegunZGA4Org==}
+  undici-types@6.19.8:
+    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
 
   universalify@2.0.1:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
@@ -90,7 +90,7 @@ snapshots:
 
   '@types/node@22.7.4':
     dependencies:
-      undici-types: 6.19.6
+      undici-types: 6.19.8
 
   degit@2.8.4: {}
 
@@ -102,7 +102,7 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  jiti@2.2.1: {}
+  jiti@2.3.3: {}
 
   jsonfile@6.1.0:
     dependencies:
@@ -112,6 +112,6 @@ snapshots:
 
   prettier@3.3.3: {}
 
-  undici-types@6.19.6: {}
+  undici-types@6.19.8: {}
 
   universalify@2.0.1: {}

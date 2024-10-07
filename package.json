@@ -15,7 +15,7 @@
         "@types/node": "^22.7.4",
         "degit": "^2.8.4",
         "fs-extra": "^11.2.0",
-        "jiti": "^2.2.1",
+        "jiti": "^2.3.3",
         "prettier": "^3.3.3"
     },
     "packageManager": "pnpm@9.6.0"
