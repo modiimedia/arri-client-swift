@@ -12,7 +12,7 @@
     "devDependencies": {
         "@types/degit": "^2.8.6",
         "@types/fs-extra": "^11.0.4",
-        "@types/node": "^22.7.4",
+        "@types/node": "^22.7.5",
         "degit": "^2.8.4",
         "fs-extra": "^11.2.0",
         "jiti": "^2.3.3",
