@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "sync-repo": "pnpm jiti sync-repo.ts"
+        "sync-repo": "pnpm jiti sync-repo.ts",
+        "compile": "swift compile"
     },
     "keywords": [],
     "author": "",
