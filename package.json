@@ -1,23 +1,25 @@
 {
-    "name": "arri-client-swift",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "sync-repo": "pnpm jiti sync-repo.ts",
-        "compile": "swift compile"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "@types/degit": "^2.8.6",
-        "@types/fs-extra": "^11.0.4",
-        "@types/node": "^22.10.5",
-        "degit": "^2.8.4",
-        "fs-extra": "^11.2.0",
-        "jiti": "^2.4.2",
-        "prettier": "^3.4.2"
-    },
-    "packageManager": "pnpm@9.6.0"
+  "name": "arri-client-swift",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sync-repo": "pnpm jiti sync-repo.ts",
+    "compile": "swift compile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/degit": "^2.8.6",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.10.5",
+    "degit": "^2.8.4",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^11.2.0",
+    "jiti": "^2.4.2",
+    "node-fetch": "^3.3.2",
+    "prettier": "^3.4.2"
+  },
+  "packageManager": "pnpm@9.6.0"
 }
